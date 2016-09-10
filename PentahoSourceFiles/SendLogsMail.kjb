@@ -12,6 +12,8 @@
     <parameters>
     </parameters>
     <slaveservers>
+         <slaveserver><name>falda.claro.amx</name><hostname>falda.claro.amx</hostname><port>8085</port><webAppName/><username>cluster</username><password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password><proxy_hostname>amba-proxy1.ctimovil.net</proxy_hostname><proxy_port>8083</proxy_port><non_proxy_hosts/><master>N</master><sslMode>N</sslMode></slaveserver>
+         <slaveserver><name>localhost</name><hostname>localhost</hostname><port>8085</port><webAppName/><username>cluster</username><password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password><proxy_hostname/><proxy_port/><non_proxy_hosts/><master>N</master><sslMode>N</sslMode></slaveserver>
     </slaveservers>
 <job-log-table><connection/>
 <schema/>
@@ -59,7 +61,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;LOGS-ROOT&#x7d;&#x2f;PentahoSourceFiles&#x2f;GetLogFileNamesToSend.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;GetLogFileNamesToSend.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -92,7 +94,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;LOGS-ROOT&#x7d;&#x2f;PentahoSourceFiles&#x2f;SendMail.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;SendMail.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>Y</params_from_previous>
