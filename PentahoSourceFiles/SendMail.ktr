@@ -177,8 +177,8 @@
       <zip_limit_size>0</zip_limit_size>
       <use_auth>N</use_auth>
       <use_secure_auth>N</use_secure_auth>
-      <auth_user/>
-      <auth_password>Encrypted </auth_password>
+      <auth_user>authentication</auth_user>
+      <auth_password>Encrypted 2be98afc86aa7f2e4aa0cba78ce93bcc9</auth_password>
       <only_comment>Y</only_comment>
       <use_HTML>Y</use_HTML>
       <use_Priority>N</use_Priority>
@@ -191,7 +191,7 @@
       </embeddedimages>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>384</xloc>
+      <xloc>368</xloc>
       <yloc>128</yloc>
       <draw>Y</draw>
       </GUI>
